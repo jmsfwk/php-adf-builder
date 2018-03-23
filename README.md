@@ -49,7 +49,7 @@ use Jmsfwk\Adf\Document;
 $doc = new Document();
 $doc->paragraph()
     ->text('Hello ')
-    ->mention(id, 'joe')
+    ->mention($id, 'joe')
     ->text(', please ')
     ->em('carefully')
     ->text(' read ')
